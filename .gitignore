@@ -1,2 +1,6 @@
 *.DS_Store
-src/
+/src/
+!src/README.md
+/build/
+/install/
+/log/
