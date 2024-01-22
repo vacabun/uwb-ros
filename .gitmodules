@@ -4,3 +4,6 @@
 [submodule "src/ros_uwb_bridge"]
 	path = src/ros_uwb_bridge
 	url = https://github.com/vacabun/ros_uwb_bridge.git
+[submodule "src/uwb_control"]
+	path = src/uwb_control
+	url = https://github.com/vacabun/uwb_control.git
