@@ -8,6 +8,7 @@
                 "${workspaceFolder}/src/uwb_simulation/include/**",
                 "${workspaceFolder}/src/uwb_locate/include/**",
                 "${workspaceFolder}/src/uwb_ros_bridge/include/**",
+                "${workspaceFolder}/src/uwb_control/include/**",
                 "${workspaceFolder}/install/uwb_interfaces/include/**"
             ],
             "defines": [],
