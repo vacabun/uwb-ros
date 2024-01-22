@@ -3,12 +3,11 @@
         {
             "name": "ROS",
             "includePath": [
-                "/opt/ros/humble/include/**",
+                "/opt/ros/iron/include/**",
                 "/usr/include/**",
-                "${vcpkgRoot}/x64-windows/include",
                 "${workspaceFolder}/src/uwb_simulation/include/**",
                 "${workspaceFolder}/src/uwb_locate/include/**",
-                "${workspaceFolder}/src/ros_uwb_bridge/include/**",
+                "${workspaceFolder}/src/uwb_ros_bridge/include/**",
                 "${workspaceFolder}/install/uwb_interfaces/include/**"
             ],
             "defines": [],
