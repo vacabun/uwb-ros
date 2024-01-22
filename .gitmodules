@@ -1,0 +1,6 @@
+[submodule "src/uwb_interfaces"]
+	path = src/uwb_interfaces
+	url = https://github.com/vacabun/uwb_interfaces.git
+[submodule "src/ros_uwb_bridge"]
+	path = src/ros_uwb_bridge
+	url = https://github.com/vacabun/ros_uwb_bridge.git
