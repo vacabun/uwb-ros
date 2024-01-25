@@ -16,9 +16,6 @@
 [submodule "src/uwb_locate"]
 	path = src/uwb_locate
 	url = https://github.com/vacabun/uwb_locate.git
-[submodule "src/px4_uwb_locate"]
-	path = src/px4_uwb_locate
-	url = https://github.com/vacabun/PX4-UWB-Locate.git
 [submodule "src/px4_locate_bridge"]
 	path = src/px4_locate_bridge
 	url = https://github.com/vacabun/px4_locate_bridge.git

@@ -5,11 +5,12 @@
             "includePath": [
                 "/opt/ros/iron/include/**",
                 "/usr/include/**",
-                "${workspaceFolder}/src/uwb_simulation/include/**",
-                "${workspaceFolder}/src/uwb_locate/include/**",
-                "${workspaceFolder}/src/uwb_ros_bridge/include/**",
+                "${workspaceFolder}/src/ros_uwb_bridge/include/**",
                 "${workspaceFolder}/src/uwb_control/include/**",
-                "${workspaceFolder}/install/uwb_interfaces/include/**"
+                "${workspaceFolder}/install/uwb_interfaces/include/**",
+                // "${workspaceFolder}/src/uwb_simulation/include/**",
+                "${workspaceFolder}/src/uwb_locate/include/**",
+                "${workspaceFolder}/src/px4_locate_bridge/include/**",
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

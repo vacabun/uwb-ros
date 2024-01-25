@@ -13,4 +13,9 @@ ros2 run uwb_ros_bridge bridge
 ros2 service call /uwb_control uwb_interfaces/srv/UWBMeasure '{cmd: 1, src: 2, dest: 3}'
 
 sudo minicom -b 115200 -8 -D /dev/ttyACM0
+
+
+
+
+ros2 launch uwb_control controller_test.launch.py
 ```
