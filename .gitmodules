@@ -10,3 +10,15 @@
 [submodule "src/px4_msgs"]
 	path = src/px4_msgs
 	url = https://github.com/PX4/px4_msgs
+[submodule "src/microxrcedds_agent"]
+	path = src/microxrcedds_agent
+	url = https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+[submodule "src/uwb_locate"]
+	path = src/uwb_locate
+	url = https://github.com/vacabun/uwb_locate.git
+[submodule "src/px4_uwb_locate"]
+	path = src/px4_uwb_locate
+	url = https://github.com/vacabun/PX4-UWB-Locate.git
+[submodule "src/px4_locate_bridge"]
+	path = src/px4_locate_bridge
+	url = https://github.com/vacabun/px4_locate_bridge.git
