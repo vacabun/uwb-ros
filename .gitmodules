@@ -19,3 +19,9 @@
 [submodule "src/px4_locate_bridge"]
 	path = src/px4_locate_bridge
 	url = https://github.com/vacabun/px4_locate_bridge.git
+[submodule "src/uwb_simulation"]
+	path = src/uwb_simulation
+	url = https://github.com/vacabun/uwb_simulation.git
+[submodule "src/ros_uwb_bridge_sim"]
+	path = src/ros_uwb_bridge_sim
+	url = https://github.com/vacabun/ros_uwb_bridge_sim.git
