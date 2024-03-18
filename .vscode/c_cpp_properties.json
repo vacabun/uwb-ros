@@ -8,9 +8,11 @@
                 "${workspaceFolder}/src/ros_uwb_bridge/include/**",
                 "${workspaceFolder}/src/uwb_control/include/**",
                 "${workspaceFolder}/install/uwb_interfaces/include/**",
+                "${workspaceFolder}/install/px4_msgs/include/px4_msgs/**",
                 // "${workspaceFolder}/src/uwb_simulation/include/**",
                 "${workspaceFolder}/src/uwb_locate/include/**",
                 "${workspaceFolder}/src/px4_locate_bridge/include/**",
+
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
