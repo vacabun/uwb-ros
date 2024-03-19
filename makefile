@@ -27,9 +27,13 @@ bridge_sim:
 clean:
 	rm -rf $(CURDIR)/build $(CURDIR)/install $(CURDIR)/log $(CURDIR)/launch/__pycache__
 
+px4_msgs:
+	colcon build --packages-select px4_msgs
 bridge_sim_test:
 	ros2 launch uwb_ros_bridge_sim bridge_test.py
-sim_test:
-	ros2 launch uwb_control controller_test_sim.launch.py
+sim_anchor_test:
+	ros2 launch uwb_control controller_test_sim_anchor.launch.py
 locate_test:
 	ros2 launch uwb_locate locate_test.launch.py
+sim_test:
+	ros2 launch uwb_control controller_test_sim.launch.py

@@ -5,7 +5,8 @@
             "includePath": [
                 "/opt/ros/iron/include/**",
                 "/usr/include/**",
-                "${workspaceFolder}/src/ros_uwb_bridge/include/**",
+                // "${workspaceFolder}/src/ros_uwb_bridge/include/**",
+                "${workspaceFolder}/src/ros_uwb_bridge_sim/include/**",
                 "${workspaceFolder}/src/uwb_control/include/**",
                 "${workspaceFolder}/install/uwb_interfaces/include/**",
                 "${workspaceFolder}/install/px4_msgs/include/px4_msgs/**",
