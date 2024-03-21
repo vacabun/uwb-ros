@@ -23,7 +23,8 @@ locate:
 
 bridge_sim:
 	colcon build --packages-select uwb_interfaces uwb_ros_bridge_sim
-
+visualizer:
+	colcon build --packages-select px4_visualizer
 clean:
 	rm -rf $(CURDIR)/build $(CURDIR)/install $(CURDIR)/log $(CURDIR)/launch/__pycache__
 

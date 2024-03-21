@@ -10,18 +10,18 @@
 [submodule "src/px4_msgs"]
 	path = src/px4_msgs
 	url = https://github.com/PX4/px4_msgs
-[submodule "src/microxrcedds_agent"]
-	path = src/microxrcedds_agent
-	url = https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
 [submodule "src/uwb_locate"]
 	path = src/uwb_locate
 	url = https://github.com/vacabun/uwb_locate.git
 [submodule "src/px4_locate_bridge"]
 	path = src/px4_locate_bridge
 	url = https://github.com/vacabun/px4_locate_bridge.git
-[submodule "src/uwb_simulation"]
-	path = src/uwb_simulation
-	url = https://github.com/vacabun/uwb_simulation.git
 [submodule "src/ros_uwb_bridge_sim"]
 	path = src/ros_uwb_bridge_sim
 	url = https://github.com/vacabun/ros_uwb_bridge_sim.git
+[submodule "src/px4_offboard_control"]
+	path = src/px4_offboard_control
+	url = https://github.com/vacabun/px4_offboard_control.git
+[submodule "src/px4_visualizer"]
+	path = src/px4_visualizer
+	url = https://github.com/vacabun/px4_visualizer.git
